@@ -72,9 +72,9 @@ git restore --staged <arquivo> #
 # git commit
 
 ```bash
-git commit -m "Comentário do commit" #cria um commit 'salvando' o status do projeto. -m > especifica a mensagem, uma breve descrição das modificações.
+git commit -m "Comentário do commit" #cria um commit 'salvando' o status do projeto. -m > especifica a mensagem, uma breve descrição das modificações, para fazer o commit é necessário que o arquivo ou os arquivos estejam no estágio staged, e para fazer isso é necessário usar o comando: git add <arquivo> ou git add *.
 
-git commit -am "Comentário do commit" # -a > adiciona todos os arquivos ao commit.
+git commit -am "Comentário do commit" # -a > adiciona todos os arquivos ao commit, -m > especifica a mensagem, uma breve descrição das modificações, -am > torna mais rápido o commit pois já engloba o comando: gitt add -a.
 ```
 
 # git status
@@ -89,5 +89,6 @@ git status #mostra o status do repositório se existe algum arquivo que não est
 
 # Fluxo de trabalho git
 
-- git init - iniciar o repositório.
-- git add < arquivo > / * - adiciona o < arquivo > específico ou * todos os arquivos a área de Staged(pronto para fazer o commit)
+- [git init](#git-init) - iniciar o repositório.
+- [git add](#git-add) < arquivo > / * - adiciona um '< arquivo >' específico ou '*' todos os arquivos ao estágio [Staged](#staged).
+
