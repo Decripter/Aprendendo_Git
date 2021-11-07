@@ -35,7 +35,7 @@ Neste estágio estarão os arquivos que já foram "commitados" e ainda não sofr
 
 ### Modified
 
-Quando um arquivo sofre uma alteração ele passa para este estágio, 
+Quando um arquivo sofre uma alteração ele passa para este estágio, essas alterações somente serão armazenadas com o [git commit](#git-commit) quando o arquivo estiver  no status de [staged](#staged). Para fazer isso utilizamos o comando [git add](#git-add)
 
 ### Staged
 
@@ -50,11 +50,11 @@ git init #inicia um repositório git na pasta atual.
 # git add
 
 ```bash
-git add * #adiciona todos os arquivos ao rastreamento do git para que ele gerencie suas mudanças e armazená-las em commits.
+git add * #transfere todos os arquivos para o estágio staged.
 ```
 
 ```bash
-git add <arquivo> #adiciona o <arquivo> ao rastreamento do git para que ele gerencie suas mudanças e armazená-las em commits.
+git add <arquivo> #adiciona o <arquivo> para o estágio staged.
 ```
 
 # git rm
@@ -74,7 +74,7 @@ git restore --staged <arquivo> #
 ```bash
 git commit -m "Comentário do commit" #cria um commit 'salvando' o status do projeto. -m > especifica a mensagem, uma breve descrição das modificações.
 
-git commit -a -m "Comentário do commit" # -a > adiciona todos os arquivos ao commit.
+git commit -am "Comentário do commit" # -a > adiciona todos os arquivos ao commit.
 ```
 
 # git status
