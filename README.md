@@ -26,7 +26,9 @@ git add <arquivo> #adiciona o <arquivo> ao rastreamento do git para que ele gere
 # git commit
 
 ```bash
-git commit -m "Comentário do commit" #cria um commit 'salvando' o status do projeto
+git commit -m "Comentário do commit" #cria um commit 'salvando' o status do projeto. -m > especifica a mensagem, uma breve descrição das modificações
+
+git commit -a -m "Comentário do commit" # -a > adiciona todos os arquivos ao commit.
 ```
 
 # git status
