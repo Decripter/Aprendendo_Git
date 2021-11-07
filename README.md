@@ -5,7 +5,7 @@
 - [git init](#git-init)
 - [git add](#git-add[)
 - [git commit](#git-commit)
-- 
+- [git status](#git-status)
 
 # git init
 
@@ -20,7 +20,7 @@ git add * #adiciona todos os arquivos ao rastreamento do git para que ele gerenc
 ```
 
 ```bash
-git add -a #adiciona os arquivos listados ao rastreamento do git para que ele gerencie suas mudanças
+git add <arquivo> #adiciona o <arquivo> ao rastreamento do git para que ele gerencie suas mudanças
 ```
 
 # git commit
@@ -28,3 +28,10 @@ git add -a #adiciona os arquivos listados ao rastreamento do git para que ele ge
 ```bash
 git commit -m "Comentário do commit" #cria um commit 'salvando' o status do projeto
 ```
+
+# git status
+
+```bash
+git status #mostra o status do repositório se existe algum arquivo que não está sendo rastreado, arquivos modificados, deletados, mostra de maneira geral o status de todo o repositório
+```
+
