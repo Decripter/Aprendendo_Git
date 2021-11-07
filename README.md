@@ -7,20 +7,6 @@
 - [git commit](#git-commit)
 - 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # git init
 
 ```bash
@@ -36,12 +22,6 @@ git add * #adiciona todos os arquivos ao rastreamento do git para que ele gerenc
 ```bash
 git add -a #adiciona os arquivos listados ao rastreamento do git para que ele gerencie suas mudanças
 ```
-
-
-
-
-
-
 
 # git commit
 
