@@ -5,10 +5,10 @@
 
 
 <p align="center">
-  <a href="#blush-why">GIT</a> •
-  <a href="#dizzy-roadmap">VIRTUALENV</a> •
-  <a href="#zap-tech-stack">DJANGO</a> •
-  <a href="#handshake-contributing">DOCKER</a> •  
+  <a href="https://github.com/Decripter/Manual_Ferramentas/blob/master/manuais/git.md">GIT</a> •
+  <a href="https://github.com/Decripter/Manual_Ferramentas/blob/master/manuais/virtualenv.md">VIRTUALENV</a> •
+  <a href="https://github.com/Decripter/Manual_Ferramentas/blob/master/manuais/django.md">DJANGO</a> •
+  <a href="https://github.com/Decripter/Manual_Ferramentas/blob/master/manuais/docker.md">DOCKER</a>
 </p>
 
 
