@@ -213,3 +213,31 @@ A seguir algumas das flags que podemos usar ao iniciar um container com ***conta
 											  #	o ponto de montagem
 ```
 
+<hr>
+
+
+
+
+
+## Container criado mas não está rodando
+
+```
+docker start -ai container_idCOPIAR CÓDIGO
+```
+
+## Container criado, está rodando em background
+
+```
+docker attach container_idCOPIAR CÓDIGO
+```
+
+## Sair do container
+
+### Parar o container
+
+Para sair do container digite `exit` ou `CTRL+D`, neste caso o container vai ser parado.
+
+### Deixar rodando em background
+
+Para "desanexar" o container do seu terminal, mas mantê-lo rodando em background utilize `CTRL+P, CTRL+Q`.
+
