@@ -1,6 +1,6 @@
 # Git Semântico
 
-
+Usar este padrão irá deixar o entendimento das mudanças bem claras, nos permite ser mais objetivos ao realizarmos commits.
 
 1. `feat`: quando se trata de uma nova funcionalidade (do inglês, *feature*)
 2. `fix`: quando se trata de uma correção de *bug*
