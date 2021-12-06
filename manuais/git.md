@@ -92,4 +92,4 @@ git status #mostra o status do repositório se existe algum arquivo que não est
 - [git init](#git-init) - iniciar o repositório.
 - [git add](#git-add) < arquivo > / * - adiciona um '< arquivo >' específico ou '*' todos os arquivos ao estágio [Staged](#staged).
 
-## Git
+<hr>
