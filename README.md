@@ -1,7 +1,7 @@
 <h1 align="center"><p>
   Manual de ferramentas 🛠
   </p></h1>
-
+<hr>
 
 <p align="center">
   <a href="https://github.com/Decripter/Manual_Ferramentas/blob/master/manuais/android.md">ANDROID</a> •
