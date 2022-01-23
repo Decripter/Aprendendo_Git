@@ -7,6 +7,7 @@
 - [git rm](#git-rm)
 - [git commit](#git-commit)
 - [git status](#git-status)
+- [erros](#erros)
 
 <hr>
 
@@ -93,3 +94,26 @@ git status #mostra o status do repositório se existe algum arquivo que não est
 - [git add](#git-add) < arquivo > / * - adiciona um '< arquivo >' específico ou '*' todos os arquivos ao estágio [Staged](#staged).
 
 <hr>
+
+
+# erros
+
+## git push -u origin main
+## error: src refspec master does not match any
+## error: failed to push some refs to 'https://github.com/UsuarioGit/repositorio.git'
+
+Seu repositório local não está compatível com o repositório online.
+
+Primeiro de tudo: retire os arquivos modificados por você e coloque-os em um diretório qualquer.
+
+Depois de feito isso rode o comando:
+
+```git remote update``` #vai atualizar os branches locais com as copias do repositório online
+Em seguida rode:
+
+```git reset origin/main```
+Pronto, seu repô está atualizado. Agora volte com os seus arquivos modificados para o diretório onde você deseja e rede o comando:
+
+```git pull -r origin main```
+
+Depois ```git push -u origin main```
